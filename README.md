@@ -10,7 +10,8 @@ CudaNote/
 │   └── buffer.h     # CUDA内存管理工具
 ├── Reduce/          # 归约算子实现
 ├── GEMM/            # 矩阵乘法算子实现
-└── Transpose/       # 矩阵转置算子实现
+├── Transpose/       # 矩阵转置算子实现
+└── Soft max/        # Soft max算子实现
 ```
 
 ## 算子介绍
@@ -18,6 +19,7 @@ CudaNote/
 - **Reduce**: 实现高效的归约操作，包括求和、最大值等
 - **GEMM**: 通用矩阵乘法优化实现
 - **Transpose**: 矩阵转置算子，重点优化内存访问模式
+- **Soft max**: soft max置算子，重点实现高效规约，优化内存访问模式
 
 ## 构建说明
 
